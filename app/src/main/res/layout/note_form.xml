@@ -1,0 +1,52 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="50dp">
+
+    <TextView
+        android:id="@+id/txt_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cafematcha"
+        android:paddingVertical="30dp"
+        android:text="Let's Take Notes"
+        android:textAlignment="center"
+        android:textSize="36dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+
+
+    <EditText
+        android:id="@+id/et_isi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Contents..."
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toBottomOf="@id/et_judul"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/et_isi"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:backgroundTint="@color/teal_200"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

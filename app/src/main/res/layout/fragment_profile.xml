@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFILE"
+        android:layout_gravity="center"
+        android:textSize="36dp"
+        android:fontFamily="@font/cafematcha"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cView_profil_photo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/img_profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/martua" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/txt_kelas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IF-7"
+            android:textSize="24dp"
+            android:fontFamily="@font/cafematcha"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/txt_nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10119279"
+            android:textSize="24dp"
+            android:fontFamily="@font/cafematcha"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/txt_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MARTUA FEBRIANTO"
+            android:textSize="24dp"
+            android:fontFamily="@font/cafematcha"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/txt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="martua.10119279@gmail.com"
+            android:textSize="24dp"
+            android:fontFamily="@font/cafematcha"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Logout"
+        android:onClick="openAlertDialog"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+
+
+</LinearLayout>

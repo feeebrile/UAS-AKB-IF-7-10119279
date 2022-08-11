@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1060725465185",
+    "project_id": "authlettanote",
+    "storage_bucket": "authlettanote.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060725465185:android:9ea031ff96bc858c100a20",
+        "android_client_info": {
+          "package_name": "com.example.LettaNotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060725465185-9tgugr0en9paq4cinfa049vrln4o4vla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLYmTDMtFFs-Y5LKCl1JUibMixILv-8lk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060725465185-9tgugr0en9paq4cinfa049vrln4o4vla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060725465185:android:ff0fc8a68f474c69100a20",
+        "android_client_info": {
+          "package_name": "com.example.tugasutsgenap2022akbif_710119279"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060725465185-9tgugr0en9paq4cinfa049vrln4o4vla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLYmTDMtFFs-Y5LKCl1JUibMixILv-8lk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060725465185-9tgugr0en9paq4cinfa049vrln4o4vla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
